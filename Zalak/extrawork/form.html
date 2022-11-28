@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Registration Form
+	</title>
+
+	<style>
+		.frm{
+			color:Black;
+			background-color: white;
+			font-size:20px;
+			text-align:left;
+		}
+
+		.tbl{
+			color:Black;
+			background-color: yellowgreen;
+			font-size:20px;
+			text-align:left;
+		}
+
+		.brd{
+  			border: 2px solid white;
+  			border-radius: 5px;
+  			
+		}
+
+	</style>
+</head>
+<body>
+
+
+
+ 	<form action="" method="post" enctype="multipart/form-data">
+		
+			<table class="tbl brd" align="center" cellpadding="5px" cellspacing="5px" width="50%" border="0">
+
+			<br><br>
+		
+			<!--<caption><b><u>Registration Form</u></b></caption>-->
+			
+			<tr>  
+				<td colspan="2"><b>Step 1: Your Details</b></td>
+				
+			</tr>
+<div class="brd">
+			<tr>  
+			
+				<td>Name:</td>
+				<td> <input type="text" name="firstname" required></td>
+			
+				
+			</tr>
+</div>
+			<tr>
+	  			<th>E-Mail:</th>
+				<td> <input type="text" name="lastname" required></td> 
+			</tr>
+	
+			<tr>
+				<th>Phone:</th>
+				<td><input type="number" name="mobile" ></td>
+			</tr>
+
+			<tr>  
+				<td colspan="2"><b>Step 2: Delivery Address</b></td>
+				
+			</tr>
+			<tr>
+
+				<th> Address:</th>
+				<td><textarea name="address" cols="21" rows="5"></textarea></td>
+
+			</tr>
+
+			<tr>  
+				<th>Postal Code:</th>
+				<td> <input type="text" name="firstname" required></td>
+			</tr>
+
+			<tr>
+				<th>Country:</th>
+				<td>
+					<select name="country">
+						<option value="">----Select Country----</option>
+						<option value="India">India</option>
+						<option value="Japan">Japan</option>
+						<option value="USA">USA</option>
+						<option value="UK">UK</option>
+						<option value="Rasia">Rasia</option>
+						<option value="China">China</option>
+					</select>
+				</td>
+			</tr>
+			<tr>  
+				<td colspan="2"><b>Step 3: Card Details</b></td>
+				
+			</tr>
+
+			<tr>
+	  			<th>Card Type :</th>
+				<td>
+					<input type="radio" name="cardtype" value="Visa"> Visa 
+					<input type="radio" name="cardtype" value="Mastercard"> Mastercard 
+					<input type="radio" name="cardtype" value="AmEx"> AmEx
+				</td>
+			</tr>
+			<tr>  
+				<th>Card Number:</th>
+				<td> <input type="text" name="cardnumber" required></td>
+			</tr>
+
+			<tr>
+				<th>Security Code:</th>
+				<td><input type="text" name="securitycode" ></td>		
+			</tr>
+
+			<tr>
+				<th>Name on Card:</th>
+				<td><input type="text" name="nameoncard" ></td>		
+			</tr>
+
+
+			
+			<tr>
+				
+				<td colspan="2" align="center">
+					<input type="button" name="buyit" value="BUY IT!" >
+			</tr>
+
+		</table></div>
+	</form>
+
+</body>
+</html>
